@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: #fff;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  width: 380px;
+  border: 1px solid rgb(200, 200, 200);
+  margin: 5px;
+  padding: 20px 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .instagram-logo {
+  margin: 20px 20px;
+}
+.wrapper .instagram-logo img {
+  width: 200px;
+}
+
+.wrapper .input-box {
+  width: 100%;
+  height: 20px;
+  margin: 30px 0;
+}
+
+.wrapper a {
+  margin: 20px 0 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.wrapper .login-btn {
+  width: 100%;
+  height: 30px;
+  background-color: palevioletred;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.input-box input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 3px;
+  background-color: rgba(247, 247, 247, 0.8);
+  font-size: 12px;
+  padding: 1em;
+}
+
+.wrapper .remember-forgot {
+  margin: 15px;
+  text-align: center;
+}
+
+.remember-forgot a {
+  color: #0a2e47;
+  font-size: 12px;
+}
+
+.facebook-login {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.facebook-login i {
+  color: #0a2e47;
+  font-size: 20px;
+}
+
+.facebook-login a {
+  color: #0a2e47;
+  font-size: 14px;
+}
+
+.no-account {
+  font-size: 14px;
+}
+
+.no-account a {
+  color: rgb(26, 188, 252);
+}
+
+.login-foot {
+  margin: 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+.login-foot a {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.login-foot p {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.login-foot #language {
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+  padding: 5px;
+}
