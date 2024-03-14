@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 800px;
-  background-color: plum;
+  background-color: pink;
   background-size: cover;
 }
 
@@ -23,6 +23,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper .instagram-logo {
@@ -33,20 +34,30 @@ body {
   width: 200px;
 }
 
+.message {
+  font-size: 14px;
+  color: rgb(97, 97, 97);
+}
+
 .facebook-login {
   margin-top: 35px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.facebook-login i {
-  color: #0a2e47;
-  font-size: 20px;
+.facebook-login-btn {
+  border: none;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  background-color: palevioletred;
+  color: #fff;
+  cursor: pointer;
 }
 
-.facebook-login a {
-  color: #0a2e47;
-  font-size: 14px;
+.facebook-login i {
+  color: #fff;
+  font-size: 20px;
 }
 
 .wrapper .input-box {
@@ -64,12 +75,13 @@ body {
 .wrapper .login-btn {
   width: 100%;
   height: 35px;
-  background-color: purple;
+  background-color: palevioletred;
   border: none;
   outline: none;
   border-radius: 8px;
   font-size: 14px;
   color: #fff;
+  cursor: pointer;
 }
 
 .input-box input {
@@ -121,5 +133,5 @@ body {
   color: rgb(117, 117, 117);
   text-decoration: none;
   padding: 5px;
-  background-color: plum;
+  background-color: pink;
 }
