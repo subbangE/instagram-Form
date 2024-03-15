@@ -67,12 +67,12 @@ body {
   padding: 1em;
 }
 
-.wrapper .mainpage {
+.wrapper .pwd-forgot {
   margin: 15px;
   text-align: center;
 }
 
-.mainpage a {
+.pwd-forgot a {
   color: #0a2e47;
   font-size: 12px;
 }
