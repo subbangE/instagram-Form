@@ -67,12 +67,12 @@ body {
   padding: 1em;
 }
 
-.wrapper .remember-forgot {
+.wrapper .mainpage {
   margin: 15px;
   text-align: center;
 }
 
-.remember-forgot a {
+.mainpage a {
   color: #0a2e47;
   font-size: 12px;
 }
