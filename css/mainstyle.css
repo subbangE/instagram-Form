@@ -12,7 +12,51 @@ body {
   position: relative;
 }
 
-header {
+/* 모바일용 헤더 */
+.mobile-header {
+  width: 100%;
+  height: 6%;
+  display: none;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(192, 192, 192);
+  position: fixed;
+  top: 0;
+  padding: 8px;
+}
+
+.mobile-header img {
+  width: 100px;
+  position: relative;
+}
+
+.mobile-header .mobile-search input {
+  position: absolute;
+  top: 0;
+  left: 110px;
+  width: 55%;
+  height: 4%;
+  padding: 15px;
+  margin: 8px;
+  border: none;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(233, 233, 233, 0.8);
+}
+
+.alim button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 180%;
+  padding: 10px;
+}
+
+/* 데스크톱 헤더 */
+.desktop-header {
   display: block;
   position: fixed;
   top: 0;
@@ -183,6 +227,7 @@ header {
   text-decoration: none;
 }
 
+/* 데스크톱용 푸터 */
 .footer {
   width: 300px;
   position: absolute;
@@ -239,6 +284,35 @@ header {
   text-decoration: none;
 }
 
+/* 모바일용 푸터 */
+.mobile-footer {
+  display: none;
+  width: 100%;
+  height: 6%;
+  background-color: #fff;
+  border-top: 1px solid rgb(192, 192, 192);
+  position: fixed;
+  bottom: 0;
+  padding: 8px;
+}
+
+.mobile-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mobile-navbar i {
+  font-size: 30px;
+  color: black;
+}
+
+.mobile-navbar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
 @media all and (max-width: 1700px) {
   .footer {
     display: none;
@@ -246,17 +320,27 @@ header {
 }
 
 @media all and (max-width: 1000px) {
-  header {
+  .desktop-header {
     display: none;
   }
 }
 
 @media all and (max-width: 450px) {
+  .mobile-header {
+    display: block;
+  }
   .story {
     display: none;
   }
+
   .post-card {
+    margin-top: 50px;
+    margin-bottom: -70px;
     width: 100%;
     height: 100%;
+  }
+
+  .mobile-footer {
+    display: block;
   }
 }
