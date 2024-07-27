@@ -10,4 +10,4 @@
 
 👉 [포토폴리오](https://drive.google.com/file/d/1LqCPbEnQB74eWh2CSxR_bFx0NPr9I4xR/view?usp=sharing)
 
-👉 [배포주소](https://subbange.github.io/Instagram-Form/)
+👉 [배포주소](https://subbange.github.io/instagram-Form/)
